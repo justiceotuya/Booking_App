@@ -11,7 +11,7 @@ const handleForm = e => {
 };
 
 export default function SignUpForm() {
-	const { button, main, headerText, onBoardingText, form, loginText } = styles;
+	const { button, main, headerText, onBoardingText, form, loginText, formButton } = styles;
 
 	return (
 		<main className={main}>
@@ -32,7 +32,9 @@ export default function SignUpForm() {
 					<input type="password" name="confirm password" required="required" />
 				</label>
 
-				<Button buttonText="sign up" link="/book-list" />
+				<section className={formButton}>
+					<Button buttonText="sign up" link="/book-list" />
+				</section>
 			</form>
 
 			<p className={loginText}>

@@ -1,14 +1,14 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["styles"],{
 
-/***/ "./components/BookList/BookList.css":
+/***/ "./components/BookCard/BookCard.css":
 /*!******************************************!*\
-  !*** ./components/BookList/BookList.css ***!
+  !*** ./components/BookCard/BookCard.css ***!
   \******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
-module.exports = {"main":"_2af4k6UvK9fumvedwnp8Ga","bookCard":"_2Olb4-ySIJ-jpx2jgrxhUV","bookCardImage":"_1tIxaRN2KsQzgfDmZ7oHDk","bookCardText":"_3LzlWH7-urkgnCjIrpwqPs","headerText":"_2e3yjVjDxHH_6mnl-NnLIr","paragraphText":"_2_YxxJMOVFm3gcfKpVvahg"};;
+module.exports = {"bookCard":"_1foLjRyG8H9rk1joPGgpVt","bookCardImage":"_2Nfsu-uvCVJW9hTTHswjNa","bookCardText":"_2-ZaWyS7y5M_l818U7d7Na","headerText":"BSw8bZlhASlbz71RPms2t","paragraphText":"_3-EN91SO7so-oKILFY7kix"};;
     if (true) {
       var injectCss = function injectCss(prev, href) {
         var link = prev.cloneNode();
@@ -30,7 +30,45 @@ module.exports = {"main":"_2af4k6UvK9fumvedwnp8Ga","bookCard":"_2Olb4-ySIJ-jpx2j
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1552990566721");
+            injectCss(link, link.href.split("?")[0] + "?unix=1553011061394");
+          });
+      }
+    }
+  
+
+/***/ }),
+
+/***/ "./components/BookList/BookList.css":
+/*!******************************************!*\
+  !*** ./components/BookList/BookList.css ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+module.exports = {"main":"_2af4k6UvK9fumvedwnp8Ga","header":"jbYs9UbFZ_IKl6uHrRODT","search_image":"kd-lpe1RpJ8HzBA3WE1il","search_label":"_3YNI7V-XfrYGq209VFnoBn","book_search":"nYseoJnSosP674mHgnW1E","title":"_1JaJZpx9QcML_fyiP2DmON","book_list":"_3KjSE029V4zEDT7qn1E0eB","addBookReview":"_3Bhz6lOSZCJz-5BPUQpqtP","menu_bar":"_3f3FXJ45GiLJb9hTbmG2Mb","menu_item":"TzEKYOi6lmlHWWN6QrXJw"};;
+    if (true) {
+      var injectCss = function injectCss(prev, href) {
+        var link = prev.cloneNode();
+        link.href = href;
+        link.onload = function() {
+          prev.parentNode.removeChild(prev);
+        };
+        prev.stale = true;
+        prev.parentNode.insertBefore(link, prev);
+      };
+      module.hot.dispose(function() {
+        window.__webpack_reload_css__ = true;
+      });
+      if (window.__webpack_reload_css__) {
+        module.hot.__webpack_reload_css__ = false;
+        console.log("[HMR] Reloading stylesheets...");
+        var prefix = document.location.protocol + '//' + document.location.host;
+        document
+          .querySelectorAll("link[href][rel=stylesheet]")
+          .forEach(function(link) {
+            if (!link.href.match(prefix) || link.stale) return;
+            injectCss(link, link.href.split("?")[0] + "?unix=1553011529328");
           });
       }
     }
@@ -68,83 +106,7 @@ module.exports = {"button":"_1MCNdoshi5QmSu3a-d5c--"};;
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1552989886366");
-          });
-      }
-    }
-  
-
-/***/ }),
-
-/***/ "./components/SignUpForm/SignUpForm.css":
-/*!**********************************************!*\
-  !*** ./components/SignUpForm/SignUpForm.css ***!
-  \**********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
-module.exports = {"main":"_2V8wQSqEQ16bYcKovr64qc","form":"_3jcNOmYdUxId6cilPMQq30","loginText":"_2fThmXA0PhUxkEAqeKTTbl"};;
-    if (true) {
-      var injectCss = function injectCss(prev, href) {
-        var link = prev.cloneNode();
-        link.href = href;
-        link.onload = function() {
-          prev.parentNode.removeChild(prev);
-        };
-        prev.stale = true;
-        prev.parentNode.insertBefore(link, prev);
-      };
-      module.hot.dispose(function() {
-        window.__webpack_reload_css__ = true;
-      });
-      if (window.__webpack_reload_css__) {
-        module.hot.__webpack_reload_css__ = false;
-        console.log("[HMR] Reloading stylesheets...");
-        var prefix = document.location.protocol + '//' + document.location.host;
-        document
-          .querySelectorAll("link[href][rel=stylesheet]")
-          .forEach(function(link) {
-            if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1552989886321");
-          });
-      }
-    }
-  
-
-/***/ }),
-
-/***/ "./components/Typography/Typography.css":
-/*!**********************************************!*\
-  !*** ./components/Typography/Typography.css ***!
-  \**********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
-module.exports = {"headerTextStyle":"_48D-WaVXq0jTQ9Lvq8ZzX","paragraphTextStyle":"_24VQYDKbcSK6Jsju5HYPr9"};;
-    if (true) {
-      var injectCss = function injectCss(prev, href) {
-        var link = prev.cloneNode();
-        link.href = href;
-        link.onload = function() {
-          prev.parentNode.removeChild(prev);
-        };
-        prev.stale = true;
-        prev.parentNode.insertBefore(link, prev);
-      };
-      module.hot.dispose(function() {
-        window.__webpack_reload_css__ = true;
-      });
-      if (window.__webpack_reload_css__) {
-        module.hot.__webpack_reload_css__ = false;
-        console.log("[HMR] Reloading stylesheets...");
-        var prefix = document.location.protocol + '//' + document.location.host;
-        document
-          .querySelectorAll("link[href][rel=stylesheet]")
-          .forEach(function(link) {
-            if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1552983884064");
+            injectCss(link, link.href.split("?")[0] + "?unix=1553009474757");
           });
       }
     }

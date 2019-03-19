@@ -23,28 +23,22 @@
       "publicPath": "static/chunks/styles.js"
     },
     {
-      "id": 13,
+      "id": 4,
       "name": null,
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     },
     {
-      "id": 11,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": 6,
+      "id": 14,
       "name": null,
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     }
   ],
-  "./SignUpForm.css": [
+  "./BookCard.css": [
     {
-      "id": "./components/SignUpForm/SignUpForm.css",
-      "name": "./components/SignUpForm/SignUpForm.css",
+      "id": "./components/BookCard/BookCard.css",
+      "name": "./components/BookCard/BookCard.css",
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     }
@@ -53,14 +47,6 @@
     {
       "id": "./components/Button/Button.css",
       "name": "./components/Button/Button.css",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    }
-  ],
-  "./Typography.css": [
-    {
-      "id": "./components/Typography/Typography.css",
-      "name": "./components/Typography/Typography.css",
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     }

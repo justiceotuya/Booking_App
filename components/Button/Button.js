@@ -6,10 +6,10 @@ export default function Button(props) {
 	const { button } = styles;
 	const { buttonText, link } = props;
 	return (
-		<button className={button}>
-			<Link href={link}>
+		<Link href={link}>
+			<button className={button}>
 				<a className={link}>{buttonText}</a>
-			</Link>
-		</button>
+			</button>
+		</Link>
 	);
 }

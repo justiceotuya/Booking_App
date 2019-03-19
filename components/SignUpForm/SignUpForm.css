@@ -44,16 +44,14 @@ input[type='password'] {
 	background: #eee;
 }
 
-input[type='text']:valid,
 input[type='email']:valid,
 input[type='password']:valid {
-	border: 10px solid linear-gradient(179.24deg, #bafb67 -5.37%, #00d23a 196.64%);
+	border-bottom: 2px solid #bafb67;
 }
 
-input[type='text']:invalid:not(:focus),
 input[type='email']:invalid:not(:focus),
 input[type='password']:invalid:not(:focus) {
-	border-bottom: 10px solid linear-gradient(357.82deg, #445984 -14.04%, rgba(68, 89, 132, 0.4) 62.94%);
+	border-bottom: 2px solid #445984;
 }
 
 .loginText {
@@ -68,6 +66,11 @@ a:visited {
 	font-weight: bold;
 	text-decoration: none;
 	border-bottom: 0.3rem solid #445984;
+}
+
+.formButton {
+	/* width: 100%; */
+	margin: 2rem 3rem;
 }
 
 @media (min-width: 475px) {

@@ -1,0 +1,31 @@
+.bookCard {
+	background-color: #ffffff;
+	margin: 2rem;
+	padding: 1rem;
+	border-radius: 0.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: start;
+}
+
+.bookCardImage {
+	margin-right: 2rem;
+}
+
+.bookCardText {
+}
+
+.headerText {
+	font-size: 18px;
+	line-height: normal;
+	color: #384f7d;
+	/* margin-top: 3rem; */
+}
+
+.paragraphText {
+	font-size: 14px;
+	line-height: normal;
+	color: rgba(56, 79, 125, 0.8);
+
+	/* margin: 0 4rem; */
+}

@@ -1,0 +1,103 @@
+webpackHotUpdate("static\\development\\pages\\book-list.js",{
+
+/***/ "./components/BookList/BookList.js":
+/*!*****************************************!*\
+  !*** ./components/BookList/BookList.js ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return BookList; });
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/extends */ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _BookList_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./BookList.css */ "./components/BookList/BookList.css");
+/* harmony import */ var _BookList_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_BookList_css__WEBPACK_IMPORTED_MODULE_2__);
+
+var _jsxFileName = "C:\\Users\\Justice Otuya\\Documents\\Learn\\Bluebic\\components\\BookList\\BookList.js";
+
+
+
+var SearchImg = function SearchImg(props) {
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("svg", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, props, {
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("g", {
+    clipPath: "url(#a)",
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
+    d: "M12.7 11.3c.9-1.2 1.4-2.6 1.4-4.2 0-3.9-3.1-7.1-7-7.1S0 3.2 0 7.1c0 3.9 3.2 7.1 7.1 7.1 1.6 0 3.1-.5 4.2-1.4l3 3c.2.2.5.3.7.3.2 0 .5-.1.7-.3.4-.4.4-1 0-1.4l-3-3.1zm-5.6.8c-2.8 0-5.1-2.2-5.1-5S4.3 2 7.1 2s5.1 2.3 5.1 5.1-2.3 5-5.1 5z",
+    fill: "#384F7D",
+    fillOpacity: ".1",
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("defs", {
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("clipPath", {
+    id: "a",
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
+    fill: "#fff",
+    d: "M0 0h16v16H0z",
+    __self: this
+  }))));
+};
+
+SearchImg.defaultProps = {
+  width: "16",
+  height: "16",
+  viewBox: "0 0 16 16",
+  fill: "none",
+  xmlns: "http://www.w3.org/2000/svg"
+};
+function BookList() {
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("main", {
+    className: main,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
+    className: "header",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, "My Book List"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("form", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", {
+    htmlFor: "book-search",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(SearchImg, {
+    className: "searchImage",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
+    type: "text",
+    className: "BookSearch",
+    name: "book-search",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }))));
+}
+
+/***/ })
+
+})
+//# sourceMappingURL=book-list.js.94a9a2a0603c9582d559.hot-update.js.map

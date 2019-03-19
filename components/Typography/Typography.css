@@ -1,0 +1,14 @@
+.headerTextStyle {
+	font-size: 32px;
+	line-height: normal;
+	text-align: center;
+	color: #384f7d;
+	margin-top: 3rem;
+}
+.paragraphTextStyle {
+	font-size: var(--small-font);
+	line-height: 22px;
+	text-align: center;
+	color: #384f7d;
+	margin: 1.2rem 4rem;
+}
